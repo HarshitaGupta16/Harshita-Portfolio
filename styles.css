@@ -29,7 +29,9 @@ hr {
 
 /* container */
 .container {
-    /* display: inline; */
+    /* margin-left: 25%; */
+    /* text-align: center; */
+    /* max-width: 600px; */
     /* padding-left: 1rem;
     padding-right: 1rem; */
     padding: 0rem 1 rem;
@@ -39,6 +41,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    /* text-align: center; */
 }
 
 /* links */
@@ -51,6 +54,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .link-secondary {
@@ -117,9 +121,14 @@ hr {
     color: var(--primary-color);
 }
 
-.headings-home-page {
+ /* .headings-home-page {
     text-align: center;
-    /* margin-left: 0%; */
+    /* margin-left: 0%; 
+}  */
+
+.heading-for-img-on-left {
+    text-align: center;
+    /* margin-left: 25%; */
 }
 
 .img-with-text-on-left {
@@ -141,24 +150,47 @@ hr {
 
 }
 
+/* .img-with-text-on-right {
+    float: left;
+    display: inline;
+    max-width: 200px;
+    flex-basis: 40%;
+} */
+
+.img-left-aligned {
+    /* float: left; */
+    display: inline;
+    max-width: 200px;
+    /* margin-left: -20%; */
+    /* padding-right: 3rem; */
+    /* flex-basis: 40%; */
+}
+
 .text {
     text-align: justify;
-    /* font-size: 20px; */
-    padding-right: 20px;
+    /* padding-bottom: 1rem; */
 }
+
+/* .text-left {
+    text-align: justify;
+    /* padding-left: 0%; 
+} */
+
 /** section  **/
 
 .section {
     padding: 2rem;
+    /* margin-top: 1rem; */
 }
 
 .section h1{
     text-align: center;
+    padding-left: 2rem;
 }
 
 .ow {
     background-color: var(--off-white);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 /** list **/
@@ -174,12 +206,14 @@ hr {
 
 .list-beautify {
     /* background: #FEF9C3; */
-    background: #ffe5e5 center fixed;
+    /* background: #ffe5e5 center fixed; */
     /* background: #FFF7ED; */
+    background: whitesmoke;
     padding: 5px;
     padding-bottom: 1.5rem;
-    margin: 20px;
-    /* margin-left: 35px; */
+    /* margin: 10px; */
+    margin-bottom: 1px;
+    margin-left: 30px;
 }
 ol {
     font-weight: bold;
