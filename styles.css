@@ -143,10 +143,10 @@ hr {
 
 .img-right-aligned {
     max-width: 200px;
-    /* display: inline; */
-    margin-left: 110% ;
+    display: inline;
+    /* margin-left: 110% ; */
     padding-bottom: 10rem;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 
 }
 
@@ -161,6 +161,7 @@ hr {
     /* float: left; */
     display: inline;
     max-width: 200px;
+    padding-right: 1rem;
     /* margin-left: -20%; */
     /* padding-right: 3rem; */
     /* flex-basis: 40%; */
@@ -226,6 +227,16 @@ ol li div{
     padding-bottom: 1rem;
    }
 
+.list-blog {
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    width: 70%;
+    padding: 0rem 1rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
 /* .list-beautify .list-link-primary {
         background-color: #D97706;
         border-radius: 0.5rem;
@@ -257,8 +268,16 @@ ol li div{
     box-sizing: border-box;
 } */
 
+.logo {
+    max-width: 100px;
+    display: inline;
+    margin-bottom: -0.3%;
+} 
 
-    
+.logo-twitter {
+    max-width: 25px;
+    margin-bottom: -0.3%;
+}
 
 /** footers **/
 .footer {
@@ -267,10 +286,12 @@ ol li div{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 1rem;
 }
 
 .footer .link {
     color: white;
+    font-size: 120%;
 }
 
 .footer .footer-header {
