@@ -144,6 +144,7 @@ hr {
 .img-right-aligned {
     max-width: 200px;
     display: inline;
+    float: right;
     /* margin-left: 110% ; */
     padding-bottom: 10rem;
     /* flex-basis: 100%; */
@@ -158,7 +159,7 @@ hr {
 } */
 
 .img-left-aligned {
-    /* float: left; */
+    float: left;
     display: inline;
     max-width: 200px;
     padding-right: 1rem;
