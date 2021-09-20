@@ -48,7 +48,7 @@ const list = [
     date: "29 June, 2021",
     p: "A GUI app built with <strong>ReactJS, HTML, CSS</strong>. This app is hosted on codesandbox. You can give any emoji as input and the app will tell it's meaning.",
     primaryLink: "https://s1xod.csb.app/",
-    secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/tree/main/Week-4/Emoji-Interpreter"
+    secondaryLink: "https://github.com/HarshitaGupta16/emoji-interpreter"
   },
   {
     h1: "Banana Talk",
@@ -58,18 +58,25 @@ const list = [
     secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/tree/main/Week-3/Banana-Speak"
   },
   {
+    h1: "Harshita Portfolio",
+    date: "June, 2021",
+    p: "This is my portfolio where I have showcased all my projects, blogs. Hi.. I am a aspiring web developer exploring this world of web development by making some projects, writing blogs. Go through the website to know more about my works!!",
+    primaryLink: "https://harshitagupta.netlify.app/",
+    secondaryLink: "https://github.com/HarshitaGupta16/Harshita-Portfolio"
+  },
+  {
     h1: "How good GK you have about India?",
     date: "June, 2021",
     p: "A CLI app built with <strong>NodeJS</strong>. You can send this to your friends and find out who has a good knowledge about India or want to test their knowledge.",
     primaryLink: "https://replit.com/@Harshita16/Neog-GK-Test-India-Game?embed=1&output=1",
-    secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/blob/main/Week-1/checkYourGeneralKnowledgeAboutIndia.js"
+    secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/tree/main/Week-1/general-knowledge-test"
   },
   {
     h1: "How well do you know me?",
     date: "June, 2021",
     p: "A CLI app built with <strong>NodeJS</strong>. You can send this to your friends and find out who really knows you.",
     primaryLink: "https://replit.com/@Harshita16/question-answer-gameend-game?embed=1&output=1",
-    secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/blob/main/Week-1/buddyMeter.js"
+    secondaryLink: "https://github.com/HarshitaGupta16/neog-camp/blob/main/Week-1/buddy-meter"
   }
 ];
 
@@ -84,7 +91,7 @@ for (let item of list) {
         <small>${item["date"]}</small>
         <p>${item["p"]}</p>
         <a class="link link-primary" href=${item["primaryLink"]}>Live Project</a>
-        <a class="link link-secondary" href=${item["secondaryLink"]}>View Source Code</a>
+        <a class="link link-secondary" target="_blank" href=${item["secondaryLink"]} >View Source Code</a>
     </div>
 </li>`;
 allProjectsList += project;
