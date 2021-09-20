@@ -33,14 +33,14 @@ const list = [
     h1: "Cash Counter",
     date: "23 July, 2021",
     p: "A GUI app built with <strong>ReactJS, HTML, CSS</strong>. This app is hosted on codesandbox. You enter the bill amount and the cash amount you will give to pay the bill. This will calculate and return the change that the customer will recieve with minimum number of notes. ",
-    primaryLink: "https://pbuo9.csb.app/",
+    primaryLink: "https://oyisy.csb.app/",
     secondaryLink: "https://github.com/HarshitaGupta16/cash-counter"
   },
   {
     h1: "Pustak Bhawan",
     date: "7 July, 2021",
     p: "A GUI app built with <strong>ReactJS, HTML, CSS</strong>. This app is hosted on codesandbox. You can click on any book category you want search a book in. A list of books will be shown to the user in that selected category.",
-    primaryLink: "https://c1sli.csb.app/",
+    primaryLink: "https://kd98e.csb.app/",
     secondaryLink: "https://github.com/HarshitaGupta16/pustak-bhawan"
   },
   {
