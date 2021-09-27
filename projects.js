@@ -97,7 +97,7 @@ for (let item of list) {
         <h1>${item["h1"]}</h1>
         <small>${item["date"]}</small>
         <p>${item["p"]}</p>
-        <a class="link link-primary" href=${item["primaryLink"]}>Live Project</a>
+        <a class="link link-primary" target="_blank" href=${item["primaryLink"]}>Live Project</a>
         <a class="link link-secondary" target="_blank" href=${item["secondaryLink"]} >View Source Code</a>
     </div>
 </li>`;
