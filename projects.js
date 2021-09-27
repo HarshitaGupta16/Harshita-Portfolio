@@ -51,6 +51,13 @@ const list = [
     secondaryLink: "https://github.com/HarshitaGupta16/emoji-interpreter"
   },
   {
+    h1: "Ferb Latin Translator",
+    date: "21 Sept 2021",
+    p: "A GUI App built using <strong>Vanilla JS, HTML, CSS</strong>. Hosted on codesandbox. This app will translate any English sentence in Ferb Latin language.",
+    primaryLink: "https://5fujj.csb.app/",
+    secondaryLink: "https://github.com/HarshitaGupta16/english-to-ferb-latin-translator" 
+  },
+  {
     h1: "Banana Talk",
     date: "22 June, 2021",
     p: "A GUI app built with <strong>HTML, CSS, JavaScript</strong>. This app is hosted on codepen. You can give any English sentence as input and the app will convert it to Minion's Banana Language.",
