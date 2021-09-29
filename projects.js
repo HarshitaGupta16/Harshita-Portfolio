@@ -3,7 +3,7 @@ const list = [
     h1: "Stock Profit and Loss",
     date: "1 September, 2021",
     p: "A GUI app built in <strong>JavaScript, HTML, CSS </strong>in which you can enter the initial price of stock (the price at which you bought it), quantity  of stock and the current price of the stock, then it will calculate if there is profit, loss or no profit no loss for the user.",
-    primaryLink: "https://hfft2.csb.app/",
+    primaryLink: "https://7ygp1.csb.app/",
     secondaryLink:
       "https://github.com/HarshitaGupta16/stock-profit-loss",
   },
@@ -19,7 +19,7 @@ const list = [
     h1: "Fun With Triangles",
     date: "12 August, 2021",
     p: "This is a <strong>ReactJS </strong>based application for kids in which they can learn triangle’s area formulae, learn about different types of triangles and their properties in a play way method. It also has some quizzes to play.",
-    primaryLink: "https://g0do9.csb.app/",
+    primaryLink: "https://x73lf.csb.app/",
     secondaryLink: "https://github.com/HarshitaGupta16/fun-with-triangles"
   },
   {
