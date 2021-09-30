@@ -67,7 +67,7 @@ const list = [
   {
     h1: "Harshita Portfolio",
     date: "June, 2021",
-    p: "This is my portfolio where I have showcased all my projects, blogs. Hi.. I am a aspiring web developer exploring this world of web development by making some projects, writing blogs. Go through the website to know more about my works!!",
+    p: "This is my portfolio where I have showcased all my projects, blogs. Hi.. I am an aspiring web developer exploring this world of web development by making some projects, writing blogs. Go through the website to know more about my works!!",
     primaryLink: "https://harshitagupta.netlify.app/",
     secondaryLink: "https://github.com/HarshitaGupta16/Harshita-Portfolio"
   },
